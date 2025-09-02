@@ -162,7 +162,7 @@ async def run_sql(query: str) -> list[dict]:
     conn = mysql.connector.connect(
         host="localhost",      # or your MySQL server IP
         user="root",  # replace with your MySQL username
-        password="fiRiam95", 
+        password="", 
         database="db_l3_merge"
         )
     cursor = conn.cursor()
